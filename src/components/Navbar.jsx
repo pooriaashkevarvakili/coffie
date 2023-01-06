@@ -18,8 +18,8 @@ export default function Navbar() {
         <div >
 
             <div>
-                <div className="2xl:flex 2xl:px-16 xl:px-16 lg:px-10 md:px-0 px-0 xl:flex lg:flex block 2xl:ml-0 xl:ml-0 lg:ml-0 ml-64 md:ml-64  justify-between  ">
-                    <Link to="/login" type="button" class=" text-black mt-4  w-36  flex items-center justify-center  h-16 rounded-xl bg-orange-400 dark:bg-black  dark:text-white  font-medium text-base leading-tight uppercase  shadow-md hover:bg-orange-400 hover:shadow-lg focus:bg-orange-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-400 active:shadow-lg transition duration-150 ease-in-out">ثبت نام</Link>
+                <div className="2xl:flex 2xl:px-16 xl:px-16 lg:px-10 md:px-0 px-0 xl:flex lg:flex block 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-60 4xl:ml-48 5xl:ml-32 xs:ml-24  md:ml-80  justify-between  ">
+                    <Link to="/login" type="button" class=" text-black 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0  w-36  flex items-center justify-center  h-16 rounded-xl bg-orange-400 dark:bg-black  dark:text-white  font-medium text-base leading-tight uppercase  shadow-md hover:bg-orange-400 hover:shadow-lg focus:bg-orange-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-400 active:shadow-lg transition duration-150 ease-in-out">ثبت نام</Link>
 
                     <div>    <DarkModeSwitch
                         className=" text-white 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-16 ml-16 dark:bg-black mt-4 dark:rounded-full dark:w-12 dark:h-12"
@@ -29,10 +29,10 @@ export default function Navbar() {
                         size={30}
                     /></div>
                     <Link to="/" className="">
-                        <img className="h-14 mt-4 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-14 ml-14" src="ghahve-logo.png" alt="" />
+                        <img className="h-14 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-14 ml-14" src="ghahve-logo.png" alt="" />
                     </Link>
                 </div>
-                <hr className="w-11/12 text-black dark:text-white ml-16 mt-4 hidden 2xl:block xl:block" />
+                <hr className="w-11/12 text-black dark:text-white ml-16 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0 hidden 2xl:block xl:block" />
                 <nav className="
   relative
   2xl:w-11/12
