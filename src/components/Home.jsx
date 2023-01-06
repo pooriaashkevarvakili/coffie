@@ -1,5 +1,6 @@
 
 import Anvae from "./Anvae";
+import Beverages from "./Beverages";
 import Carousel from "./Carousel";
 import Kafein from "./Kafein";
 import Product from "./Product";
@@ -8,8 +9,14 @@ const Home = () => {
         <div>
             <Carousel />
             <Product />
-            <Kafein />
-            <Anvae />
+            <Beverages />
+
+            {/* <Kafein />
+           
+          
+                <Anvae /> */}
+
+
 
         </div>
 

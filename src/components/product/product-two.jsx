@@ -18,11 +18,11 @@ const ProductTwo = () => {
                             <div class="flex justify-between  mt-4">
 
                                 <div className="flex space-x-2">
-                                    <button className="btn w-12 h-12 rounded-full btn-sm bg-black text-white dark:text-black dark:bg-orange-400">-</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm  text-black bg-orange-400">-</button>
                                     <span className="mt-2 text-black dark:text-white">1</span>
-                                    <button className="btn w-12 h-12 rounded-full btn-sm text-white dark:text-black bg-black dark:bg-orange-400">+</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm text-black bg-orange-400">+</button>
                                 </div>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-black dark:bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">AddToCart</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
 
                             </div>
                         </div>
@@ -44,11 +44,11 @@ const ProductTwo = () => {
                             <div class="flex justify-between mt-4">
 
                                 <div className="flex space-x-2">
-                                    <button className="btn w-12 h-12 rounded-full btn-sm bg-black text-white dark:text-black dark:bg-orange-400">-</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm  text-black bg-orange-400">-</button>
                                     <span className="mt-2 text-black dark:text-white">1</span>
-                                    <button className="btn w-12 h-12 rounded-full btn-sm text-white dark:text-black bg-black dark:bg-orange-400">+</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm text-black bg-orange-400">+</button>
                                 </div>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-black dark:bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">AddToCart</button>
+                                <button type="button" class=" inline-block px-6 py-2.5  bg-orange-400 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                             </div>
                         </div>
                     </div>
@@ -69,11 +69,11 @@ const ProductTwo = () => {
                             <div class="flex justify-between mt-4">
 
                                 <div className="flex space-x-2">
-                                    <button className="btn w-12 h-12 rounded-full btn-sm bg-black text-white dark:text-black dark:bg-orange-400">-</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm  text-black bg-orange-400">-</button>
                                     <span className="mt-2 text-black dark:text-white">1</span>
-                                    <button className="btn w-12 h-12 rounded-full btn-sm text-white dark:text-black bg-black dark:bg-orange-400">+</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm text-black bg-orange-400">+</button>
                                 </div>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-black dark:bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">AddToCart</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                             </div>
                         </div>
                     </div>
@@ -94,11 +94,11 @@ const ProductTwo = () => {
                             <div class="flex justify-between mt-4">
 
                                 <div className="flex space-x-2">
-                                    <button className="btn w-12 h-12 rounded-full btn-sm bg-black text-white dark:text-black dark:bg-orange-400">-</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm  text-black bg-orange-400">-</button>
                                     <span className="mt-2 text-black dark:text-white">1</span>
-                                    <button className="btn w-12 h-12 rounded-full btn-sm text-white dark:text-black bg-black dark:bg-orange-400">+</button>
+                                    <button className="btn w-12 h-12 rounded-full btn-sm text-black bg-orange-400">+</button>
                                 </div>
-                                <button type="button" class=" inline-block px-6 py-2.5 bg-black dark:bg-orange-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">AddToCart</button>
+                                <button type="button" class=" inline-block px-6 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                             </div>
                         </div>
                     </div>

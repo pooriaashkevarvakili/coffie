@@ -6,8 +6,9 @@ const Product = () => {
     return (
         <div>
             <div className="2xl:flex xl:flex lg:flex block px-16 2xl:mr-12 xl:mr-12 lg:mr-12 xs:ml-14 sm:ml-52 2xl:ml-0 4xl:ml-32 5xl:ml-20 xl:ml-0 lg:ml-0 md:ml-72 mt-4 justify-between">
-                <div className="text-white dark:text-black">محصولات پرطرفدارم</div>
-                <div className="text-white dark:text-black 2xl:ml-0 xl:ml-0 lg:ml-0 ml-8">محصولات</div>
+
+                <div className="text-orange-400 2xl:ml-0 xl:ml-0 lg:ml-0 ml-8">همه محصولات</div>
+                <div className="text-white text-3xl dark:text-black">محصولات پرطرفدارم</div>
             </div>
             <div>
                 <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">

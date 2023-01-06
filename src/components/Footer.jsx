@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <>
             <footer className=" mt-4 bg-gray-900 text-white">
-                <div className="2xl:flex xl:flex lg:flex md:block justify-between direction">
+                <div className="2xl:flex 2xl:px-16 xl:px-16 lg:px-16 px-0  xl:flex lg:flex md:block justify-between direction">
                     <div>
                         <div>درباره ما</div>
                         <div>آن چیزی که می خواهد درخصوص متن ها </div>

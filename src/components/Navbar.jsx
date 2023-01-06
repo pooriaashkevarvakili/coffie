@@ -1,33 +1,19 @@
-import { useState } from "react";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
-import useDarkSide from "../hooks/useDarkSide";
+
 import { Link } from "react-router-dom";
 export default function Navbar() {
 
-    const [colorTheme, setTheme] = useDarkSide();
-    const [darkSide, setDarkSide] = useState(
-        colorTheme === "light" ? true : false
-    );
-
-    const toggleDarkMode = (checked) => {
-        setTheme(colorTheme);
-        setDarkSide(checked);
-    };
 
     return (
         <div >
 
             <div>
-                <div className="2xl:flex 2xl:px-16 xl:px-16 lg:px-10 md:px-0 px-0 xl:flex lg:flex block 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-60 4xl:ml-48 5xl:ml-32 xs:ml-24  md:ml-80  justify-between  ">
-                    <Link to="/login" type="button" class=" text-black 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0  w-36  flex items-center justify-center  h-16 rounded-xl bg-orange-400 dark:bg-black  dark:text-white  font-medium text-base leading-tight uppercase  shadow-md hover:bg-orange-400 hover:shadow-lg focus:bg-orange-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-400 active:shadow-lg transition duration-150 ease-in-out">ثبت نام</Link>
+                <div className="2xl:flex 2xl:px-20 xl:px-20 lg:px-10 md:px-0 px-0 xl:flex lg:flex block 2xl:ml-0 xl:ml-0 lg:ml-0 sm:ml-60 4xl:ml-48 5xl:ml-32 xs:ml-24  md:ml-80  justify-between  ">
+                    <div className="2xl:flex xl:flex lg:flex block">
+                        <Link to="/login" type="button" class=" text-black 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0  w-36  flex items-center justify-center  h-16 rounded-xl bg-orange-400 dark:bg-black  dark:text-white  font-medium text-base leading-tight uppercase  shadow-md hover:bg-orange-400 hover:shadow-lg focus:bg-orange-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-400 active:shadow-lg transition duration-150 ease-in-out">ثبت نام</Link>
+                        <Link to="/login" type="button" class="  2xl:mt-4 xl:mt-4 lg:mt-4 mt-0  w-36  flex items-center justify-center  h-16 rounded-xl   text-white  font-medium text-base leading-tight uppercase  shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">ورود</Link>
+                    </div>
 
-                    <div>    <DarkModeSwitch
-                        className=" text-white 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-16 ml-16 dark:bg-black mt-4 dark:rounded-full dark:w-12 dark:h-12"
-                        style={{ marginBottom: "2rem" }}
-                        checked={darkSide}
-                        onChange={toggleDarkMode}
-                        size={30}
-                    /></div>
+
                     <Link to="/" className="">
                         <img className="h-14 2xl:mt-4 xl:mt-4 lg:mt-4 mt-0 2xl:ml-0 xl:ml-0 lg:ml-0 md:ml-14 ml-14" src="ghahve-logo.png" alt="" />
                     </Link>
@@ -47,8 +33,8 @@ export default function Navbar() {
   justify-between
   direction
   py-4
-  dark:bg-black
-  bg-gray-100
+  
+  
   text-gray-500
   hover:text-gray-700
   focus:text-gray-700
@@ -78,7 +64,7 @@ export default function Navbar() {
                             <Link className="
         flex
         items-center
-        text-black
+        text-white
          dark:hover:text-orange-400
         hover:text-orange-400
         focus:text-orange-400
@@ -93,11 +79,11 @@ export default function Navbar() {
                             <Link className="
        flex
        items-center
-       text-black
+       
         dark:hover:text-orange-400
        hover:text-orange-400
        focus:text-orange-400
-       dark:text-white
+       text-white
        mt-2
        lg:mt-0
        2xl:mr-3
@@ -111,11 +97,11 @@ export default function Navbar() {
                             <Link className="
       flex
       items-center
-      text-black
+      
        dark:hover:text-orange-400
       hover:text-orange-400
       focus:text-orange-400
-      dark:text-white
+      text-white
       mt-2
       lg:mt-0
       2xl:mr-3
@@ -129,11 +115,11 @@ export default function Navbar() {
                             <Link className="
       flex
       items-center
-      text-black
+      
        dark:hover:text-orange-400
       hover:text-orange-400
       focus:text-orange-400
-      dark:text-white
+      text-white
       mt-2
       lg:mt-0
       2xl:mr-3
@@ -147,11 +133,11 @@ export default function Navbar() {
                             <Link className="
       flex
       items-center
-      text-black
+      
        dark:hover:text-orange-400
       hover:text-orange-400
       focus:text-orange-400
-      dark:text-white
+      text-white
       mt-2
       lg:mt-0
       2xl:mr-3

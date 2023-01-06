@@ -15,7 +15,7 @@ function App() {
     }, 2000);
   }, []);
   return (
-    <div className=" bg-black dark:bg-white">
+    <div className=" bg-black ">
       {loading ? (
         <div className="loader-container">
           <div className="spinner"></div>

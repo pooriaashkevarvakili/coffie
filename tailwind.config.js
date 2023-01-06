@@ -18,6 +18,6 @@ module.exports = {
       '6xl': '1450px'
     },
   },
-  darkMode: "class",
+
   plugins: [require('tw-elements/dist/plugin')],
 }
