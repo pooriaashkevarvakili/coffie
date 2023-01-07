@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 const Carousel = () => {
     return (
-        <div className="2xl:flex xl:flex lg:flex md:block direction 2xl:mr-24 xl:mr-24 lg:mr-24 mr-0">
-            <div className="2xl:w-6/12 xl:w-6/12 lg:w-6/12 w-full text-white dark:text-black">
-                <div className="mt-4 2xl:mr-0 xl:mr-0 lg:mr-0 text-3xl md:mr-96 sm:mr-72 4xl:mr-56 5xl:mr-44 xs:mr-36">قهوه ام</div>
-                <div className="mt-4 2xl:mr-0 xl:mr-0 lg:mr-0 md:mr-80 text-3xl sm:mr-52 4xl:mr-36 5xl:mr-24 xs:mr-20">تجربه ای <span className="text-orange-400">لذت بخش</span> از قهوه باما</div>
+        <div className="2xl:flex xl:flex lg:flex md:block direction 2xl:mr-24 xl:mr-24  lg:mr-24 mr-0">
+            <div className="2xl:w-6/12 xl:w-6/12 lg:w-6/12 w-full text-white dark:text-black md:mr-2">
+                <div className="mt-4 2xl:mr-0 xl:mr-0 lg:mr-0 text-3xl md:mr-80 sm:mr-64 5xl:mr-44 xs:mr-36 4xl:mr-56">قهوه ام</div>
+                <div className="mt-4 2xl:mr-0 xl:mr-0 lg:mr-0 md:mr-64 sm:mr-52 text-3xl xs:mr-20 4xl:mr-40 5xl:mr-28  xs:text-base ">تجربه ای <span className="text-orange-400">لذت بخش</span> از قهوه باما</div>
                 <div className="text-base">
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </div>

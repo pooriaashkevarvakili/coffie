@@ -6,6 +6,8 @@ import Cart from "./components/Cart";
 import Login from "./components/Login";
 import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
+import '../node_modules/react-toastify/dist/ReactToastify.css'
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -21,8 +23,9 @@ function App() {
           <div className="spinner"></div>
         </div>
       ) : (
-        <BrowserRouter>
 
+        <BrowserRouter>
+          <ToastContainer />
 
 
 

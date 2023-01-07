@@ -6,10 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import "./assets/index.css"
 import "tw-elements/dist/js/index.min.js"
 import "./assets/iransans.css"
+import store from "./redux/store"
+import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
+
   </React.StrictMode>
 );
 

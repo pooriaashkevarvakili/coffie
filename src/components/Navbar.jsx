@@ -1,8 +1,8 @@
+import { useSelector } from "react-redux";
 
 import { Link } from "react-router-dom";
 export default function Navbar() {
-
-
+    const { cart } = useSelector(state => state.cart)
     return (
         <div >
 
@@ -151,13 +151,17 @@ export default function Navbar() {
                         </div>
                         <div className="flex items-center relative">
                             <Link to="/cart" className="text-gray-500 hover:text-gray-700 focus:text-gray-700 2xl:mr-4 xl:mr-4 lg:mr-4 mr-0" href="#">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart"
-                                    className="w-4" role="img" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z">
-                                    </path>
-                                </svg>
+                                <div className="m-6 inline-flex relative w-fit">
+                                    <div className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 p-2.5 text-xs bg-red-600 rounded-full text-white z-10">{cart.length}</div>
+                                    <div className="w-12 h-12 bg-gray-400 flex items-center justify-center text-center rounded-lg shadow-lg">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-white">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                            </svg>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </Link>
                         </div>
                     </div>
