@@ -61,7 +61,7 @@ export default function Navbar() {
                             </svg>
                         </button>
                         <div className="collapse  navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-                            <Link className="
+                            <Link to="/" className="
         flex
         items-center
         text-white

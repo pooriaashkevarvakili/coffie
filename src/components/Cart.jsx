@@ -1,7 +1,10 @@
+import Navbar from "./Navbar";
+
 const Cart = () => {
     return (
-        <div className="text-white direction mr-24">
-            Cart
+        <div>
+            <Navbar />
+            <div className="text-black">cart</div>
         </div>
     );
 }

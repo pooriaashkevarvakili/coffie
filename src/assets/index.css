@@ -37,3 +37,12 @@
         transform: rotate(360deg);
     }
 }
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    border-color: rgb(251 146 60);
+}
+
+:hover.nav-tabs .nav-link.active {
+    color: rgb(251 146 60);
+}

@@ -49,7 +49,9 @@ const Beverages = () => {
                 <div>
                     <div id="carouselExampleControlsOne" class="carousel slide relative" data-bs-ride="carousel">
                         <div class="carousel-inner relative w-full overflow-hidden">
+
                             <div class="carousel-item active relative float-left w-full">
+
                                 <div className="tab-pane text-white fade show active" id="tabs-home" role="tabpanel" aria-labelledby="tabs-home-tab">
                                     <BeveragesOne />
                                 </div>
