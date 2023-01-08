@@ -1,6 +1,7 @@
 const productData = [
     {
         id: 1,
+
         img: 'ghahve-2.png',
         name: 'لاته',
         price: 20000,
@@ -8,6 +9,7 @@ const productData = [
     },
     {
         id: 2,
+
         img: "ghahve-one.png",
         name: "اسپرسودبل",
         price: 15000,
@@ -15,6 +17,7 @@ const productData = [
     },
     {
         id: 3,
+
         img: "ghahve-4.png",
         name: "امریکانو",
         price: 25000,
@@ -22,6 +25,7 @@ const productData = [
     },
     {
         id: 4,
+
         img: "ghahve3.png",
         name: "هات چاکلت",
         price: 20000,

@@ -3,6 +3,8 @@ import { AddToCart } from "../redux/featchers/CartSlice";
 
 const Product = () => {
     const dispatch = useDispatch()
+
+
     const data = useSelector((state) => state.products.items)
     return (
         <div>
@@ -19,7 +21,7 @@ const Product = () => {
 
                                 {
                                     data.map((product) => (
-                                        <div key={product.id} class="flex h-96 justify-center">
+                                        <div key={product.id} class="flex  justify-center">
                                             <div class="rounded-lg shadow-lg bg-white dark:bg-black max-w-sm">
 
                                                 <img className="rounded-t-lg w-full" src={product.img} alt="" />
@@ -33,14 +35,10 @@ const Product = () => {
                                                     <div class="flex  justify-between">
                                                         <div className="text-black dark:text-white">{product.desc}</div>
                                                     </div>
-                                                    <div class="flex justify-between mt-4">
+                                                    <div class="flex justify-end mt-4">
 
 
-                                                        <div className="flex 5xl:-mt-2 space-x-2 2xl:mt-0 xl:mt-0 md:-mt-4 sm:-mt-2 4xl:-mt-2  xs:-mt-8">
-                                                            <button className="btn mt-4 4xl:mt-4 xs:mt-6 w-6 h-6 rounded-md btn-sm  text-black bg-orange-400">-</button>
-                                                            <span className="mt-3  xs:mt-6 4xl:mt-3 text-black dark:text-white">1</span>
-                                                            <button className="btn w-6 mt-4 h-6 4xl:mt-4 xs:mt-6 rounded-md  btn-sm text-black  bg-orange-400">+</button>
-                                                        </div>
+
                                                         <button type="button" onClick={() => dispatch(AddToCart(product))} className=" inline-block 2xl:mt-3 xl:mt-3 md:mt-0 sm:mt-2 4xl:mt-0 5xl:mt-0 xs:-mt-3 rounded-lg w-32 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-900 hover:shadow-lg focus:bg-orange-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-900 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                                                     </div>
                                                 </div>
@@ -57,7 +55,7 @@ const Product = () => {
 
                                 {
                                     data.map((product) => (
-                                        <div key={product.id} class="flex h-96 justify-center">
+                                        <div key={product.id} class="flex  justify-center">
                                             <div class="rounded-lg shadow-lg bg-white dark:bg-black max-w-sm">
 
                                                 <img className="rounded-t-lg w-full" src={product.img} alt="" />
@@ -68,17 +66,13 @@ const Product = () => {
                                                         <div className="text-black dark:text-white">{product.name}</div>
 
                                                     </div>
-                                                    <div className="flex  justify-between">
+                                                    <div className="flex  justify-end">
                                                         <div className="text-black dark:text-white">{product.desc}</div>
                                                     </div>
-                                                    <div className="flex justify-between mt-4">
+                                                    <div className="flex justify-end mt-4">
 
 
-                                                        <div className="flex 5xl:-mt-2 space-x-2 2xl:mt-0 xl:mt-0 md:-mt-4 sm:-mt-2 4xl:-mt-2  xs:-mt-8">
-                                                            <button className="btn mt-4 4xl:mt-4 xs:mt-6 w-6 h-6 rounded-md btn-sm  text-black bg-orange-400">-</button>
-                                                            <span className="mt-3  xs:mt-6 4xl:mt-3 text-black dark:text-white">1</span>
-                                                            <button className="btn w-6 mt-4 h-6 4xl:mt-4 xs:mt-6 rounded-md  btn-sm text-black  bg-orange-400">+</button>
-                                                        </div>
+
                                                         <button type="button" onClick={() => dispatch(AddToCart(product))} className=" inline-block 2xl:mt-3 xl:mt-3 md:mt-0 sm:mt-2 4xl:mt-0 5xl:mt-0 xs:-mt-3 rounded-lg w-32 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-900 hover:shadow-lg focus:bg-orange-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                                                     </div>
                                                 </div>
@@ -87,7 +81,6 @@ const Product = () => {
                                     ))
                                 }
 
-
                             </div>
                         </div>
                         <div class="carousel-item relative float-left w-full">
@@ -95,7 +88,7 @@ const Product = () => {
 
                                 {
                                     data.map((product) => (
-                                        <div key={product.id} class="flex h-96 justify-center">
+                                        <div key={product.id} class="flex  justify-center">
                                             <div className="rounded-lg shadow-lg bg-white dark:bg-black max-w-sm">
 
                                                 <img className="rounded-t-lg w-full" src={product.img} alt="" />
@@ -109,14 +102,10 @@ const Product = () => {
                                                     <div className="flex  justify-between">
                                                         <div className="text-black dark:text-white">{product.desc}</div>
                                                     </div>
-                                                    <div className="flex justify-between mt-4">
+                                                    <div className="flex justify-end mt-4">
 
 
-                                                        <div className="flex 5xl:-mt-2 space-x-2 2xl:mt-0 xl:mt-0 md:-mt-4 sm:-mt-2 4xl:-mt-2  xs:-mt-8">
-                                                            <button className="btn mt-4 4xl:mt-4 xs:mt-6 w-6 h-6 rounded-md btn-sm  text-black bg-orange-400">-</button>
-                                                            <span className="mt-3  xs:mt-6 4xl:mt-3 text-black dark:text-white">1</span>
-                                                            <button className="btn w-6 mt-4 h-6 4xl:mt-4 xs:mt-6 rounded-md  btn-sm text-black  bg-orange-400">+</button>
-                                                        </div>
+
                                                         <button type="button" onClick={() => dispatch(AddToCart(product))} className=" inline-block 2xl:mt-3 xl:mt-3 md:mt-0 sm:mt-2 4xl:mt-0 5xl:mt-0 xs:-mt-3 rounded-lg w-32 py-2.5 bg-orange-400 text-black font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-900 hover:shadow-lg focus:bg-orange-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-orange-900 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
                                                     </div>
                                                 </div>

@@ -1,6 +1,6 @@
 
 import { useSelector, useDispatch } from "react-redux";
-import { AddToCart, decrement } from "../redux/featchers/CartSlice";
+import { AddToCart } from "../redux/featchers/CartSlice";
 const Beverages = () => {
     const dispatch = useDispatch()
     const data = useSelector(state => state.productsOne.items)
@@ -73,7 +73,7 @@ const Beverages = () => {
                                     <div className="grid mt-4  2xl:grid-cols-3 gap-6 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 2xl:px-2 xl:px-2 px-0  mr-0 2xl:ml-24 xl:ml-24 ">
                                         {
                                             data.map((product) => ((
-                                                <div key={product.id} className="flex  h-96  justify-center">
+                                                <div key={product.id} className="flex    justify-center">
                                                     <div className="rounded-lg shadow-lg bg-white dark:bg-black max-w-md">
                                                         <a href="#!">
                                                             <img className="rounded-t-lg w-full" src={product.img} alt="" />
@@ -92,11 +92,7 @@ const Beverages = () => {
 
                                                                 <button onClick={() => dispatch(AddToCart(product))} type="button" class=" inline-block mt-3.5  rounded-lg w-32 py-3  bg-orange-400 text-black font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-900 hover:shadow-lg focus:bg-orange-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
 
-                                                                <div className="flex">
-                                                                    <button onClick={() => dispatch(decrement(product))} className="btn mt-5 w-6 h-6 rounded-md btn-sm  text-black bg-orange-400">-</button>
-                                                                    <span className="mt-5 mr-2 text-black ">1</span>
-                                                                    <button onClick={() => dispatch(AddToCart(product))} className="btn w-6 mr-2 mt-5 h-6 rounded-md   btn-sm text-black  bg-orange-400">+</button>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -114,7 +110,7 @@ const Beverages = () => {
                                     <div className="grid mt-4  2xl:grid-cols-3 gap-6 xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 2xl:px-2 xl:px-2 px-0  mr-0 2xl:ml-24 xl:ml-24 ">
                                         {
                                             data.map((product) => ((
-                                                <div key={product.id} className="flex  h-96  justify-center">
+                                                <div key={product.id} className="flex   justify-center">
                                                     <div className="rounded-lg shadow-lg bg-white dark:bg-black max-w-md">
                                                         <a href="#!">
                                                             <img className="rounded-t-lg w-full" src={product.img} alt="" />
@@ -133,11 +129,7 @@ const Beverages = () => {
 
                                                                 <button onClick={() => dispatch(AddToCart(product))} type="button" className=" inline-block mt-3.5  rounded-lg w-32 py-3  bg-orange-400 text-black font-medium text-xs leading-tight uppercase  shadow-md hover:bg-yellow-900 hover:shadow-lg focus:bg-orange-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">افزودن به سبدخرید</button>
 
-                                                                <div className="flex">
-                                                                    <button onClick={() => dispatch(decrement(product))} className="btn mt-5 w-6 h-6 rounded-md btn-sm  text-black bg-orange-400">-</button>
-                                                                    <span className="mt-5 mr-2 text-black ">1</span>
-                                                                    <button onClick={() => dispatch(AddToCart(product))} className="btn w-6 mr-2 mt-5 h-6 rounded-md   btn-sm text-black  bg-orange-400">+</button>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
